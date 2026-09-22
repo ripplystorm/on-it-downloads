@@ -1,19 +1,13 @@
-# On IT 0.21.0-dev — Android preview
+# On IT 0.22.1-dev — Stripe support
 
-The full Android networking toolkit is available as a free development preview.
+The free, ad-free Android networking toolkit now offers optional one-time support through Settings > Support > Support via Stripe. Choose the amount on Stripe's checkout page, starting at USD $1. Removed the non-interactive suggested amount labels to keep this screen clear.
 
-- LAN scans with live devices, saved history, comparisons, filters and sorting on one tab.
-- Scan/comparison text and CSV exports, manual JSON backup/restore, and diagnostic copy/share reports.
-- Ping, traceroute, DNS, TCP ports, WHOIS/RDAP, Wi-Fi and Bluetooth tools.
-- Optional Cloudflare speed test and offline references with T568B as the standard.
-- On IT cape icon, descriptive title, dark/light themes, separate Settings → Support and offline privacy policy.
+The privacy policy now covers optional Stripe checkout. No payment SDK, app analytics, automatic crash reporting or feature unlocks are added.
 
-**Install:** Download `on-it-0.21.0-dev.apk` under Assets. Requires Android 6.0/API 23 or later. `SHA256SUMS.txt` contains the file checksum.
+Download **on-it-0.22.1-dev.apk** below. Android 6.0/API 23 or later. Package `dev.itpro.app.debug`, version code 25, same development signer as the previous preview. Existing preview users can install this as an update. A future Play build installs separately; use LAN backup/restore to transfer scans.
 
-**Preview status:** This is the tested development APK, package `dev.itpro.app.debug`, version code 23. It uses development signing and is not a Google Play production build. A future Play build will install separately; back up saved LAN scans for transfer. Support payments remain disabled.
+The build passed 241 automated tests and Android lint with zero errors. The user confirmed the Stripe flow worked in 0.22; 0.22.1 removes the amount labels. Broader device/version checks remain ongoing. No completed payment or payout test is claimed.
 
-**Validation:** The existing APK checkpoint passed 240 automated tests and Android lint with zero errors. Users reported successful testing on several devices. Broader device/version and accessibility checks remain in progress.
+`SHA256SUMS.txt` contains asset checksums. This remains a development prerelease, not a Google Play production build. The auto-generated source archives contain only this downloads repository's documents.
 
-**Privacy:** No app analytics or automatic crash-reporting SDKs. The Cloudflare panel has a separate provider-data disclosure before loading. [Read the privacy policy](https://on-it-privacy.pages.dev/).
-
-**Feedback:** [ripplystorm@gmail.com](mailto:ripplystorm@gmail.com). Include Android/device/app versions and reproduction steps; remove private network data from any shared reports.
+[Privacy policy](https://on-it-privacy.pages.dev/) · Feedback: ripplystorm@gmail.com

@@ -4,7 +4,7 @@ Android networking tools from **Ripply Apps**. Free to use, with no ads or app a
 
 ## Download
 
-Open this repository's **Releases** page and choose **On IT 0.21.0-dev — Android preview**. Under Assets, download `on-it-0.21.0-dev.apk`. The automatically generated Source code downloads contain this downloads repository's documents.
+Open this repository's **Releases** page and choose **On IT 0.22.1-dev — Android preview**. Under Assets, download `on-it-0.22.1-dev.apk`. The automatically generated Source code downloads contain this downloads repository's documents.
 
 This is a development preview for Android 6.0 or later. It uses package `dev.itpro.app.debug` and development signing. A future Google Play build will install separately; use LAN → Back up saved scans to keep a portable copy of your scans.
 
@@ -24,11 +24,11 @@ This is a development preview for Android 6.0 or later. It uses package `dev.itp
 - Offline Ethernet wiring, DNS and command references; T568B is the standard/default.
 - Dark/light/system themes and separate Settings sections.
 
-Availability depends on Android permissions, hardware and the network. LAN results are observations rather than a complete device inventory. Support contributions are not enabled in this preview.
+Availability depends on Android permissions, hardware and the network. LAN results are observations rather than a complete device inventory. Optional one-time support is available in Settings > Support through external Stripe checkout. Choose your amount there; checkout starts at USD $1. Contributions unlock no features.
 
 ## Privacy and feedback
 
-Saved LAN scans stay on the device unless you explicitly export or back them up. No app analytics or automatic crash-reporting SDK is included. Diagnostics contact their selected destinations, and the optional Cloudflare speed test follows its provider policy.
+Saved LAN scans stay on the device unless you explicitly export or back them up. No app analytics or automatic crash-reporting SDK is included. Diagnostics contact their selected destinations, and the optional Cloudflare speed test follows its provider policy. Optional Stripe checkout has separate payment and browser-data processing described in the privacy policy.
 
 [Privacy policy](https://on-it-privacy.pages.dev/) · [Email Ripply Apps](mailto:ripplystorm@gmail.com)
 
