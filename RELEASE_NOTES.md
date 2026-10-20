@@ -1,12 +1,12 @@
-# On IT 0.22.1-dev — Stripe support
+# On IT 0.24.0-dev — LAN browser shortcut and subnet reference
 
-The free, ad-free Android networking toolkit now offers optional one-time support through Settings > Support > Support via Stripe. Choose the amount on Stripe's checkout page, starting at USD $1. Removed the non-interactive suggested amount labels to keep this screen clear.
+Long-press a LAN device result to open its numeric IP in your browser. This works in current scans, saved scan details and comparisons. Ordinary taps still expand details. When a comparison shows an IP change, the later IP opens; Not seen results use the earlier IP. The initial URL is `http://<IP>/`.
 
-The privacy policy now covers optional Stripe checkout. No payment SDK, app analytics, automatic crash reporting or feature unlocks are added.
+Reference now includes an offline subnet-mask/CIDR guide with searchable `/0`–`/32` entries, total addresses, usable-host counts and `/31`–`/32` explanations. For example, `255.255.255.0` = `/24`: 256 total addresses, normally 254 usable hosts.
 
-Download **on-it-0.22.1-dev.apk** below. Android 6.0/API 23 or later. Package `dev.itpro.app.debug`, version code 25, same development signer as the previous preview. Existing preview users can install this as an update. A future Play build installs separately; use LAN backup/restore to transfer scans.
+Download **on-it-0.24.0-dev.apk** below. Android 6.0/API 23 or later. Package `dev.itpro.app.debug`, version code 27, same development signer as previous previews. Existing preview users can install this as an update. A future Play build installs separately; use LAN backup/restore to transfer scans.
 
-The build passed 241 automated tests and Android lint with zero errors. The user confirmed the Stripe flow worked in 0.22; 0.22.1 removes the amount labels. Broader device/version checks remain ongoing. No completed payment or payout test is claimed.
+The build passed 252 automated host tests and Android debug/release lint with zero errors. Tests cover long-press versus tap, saved/comparison addresses, browser failure/retry, large text and invalid-address rejection. Device browser launch/return and the new reference guide still need phone validation. Opening the browser can stop a running scan when On IT goes into the background; partial results remain. Saved IPs may now refer to another device or network.
 
 `SHA256SUMS.txt` contains asset checksums. This remains a development prerelease, not a Google Play production build. The auto-generated source archives contain only this downloads repository's documents.
 
