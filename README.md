@@ -1,4 +1,25 @@
-# On IT – Networking Tools
+# On IT — Networking Tools
+
+Networking tools for **Android and Windows** from **Ripply Apps**.
+
+## Choose your platform
+
+| Platform | Preview | Download |
+| --- | --- | --- |
+| Windows x64 | 0.36.0 | [Setup EXE](https://github.com/ripplystorm/on-it-downloads/releases/download/windows-v0.36.0/on-it-windows-0.36.0-preview.exe) · [MSI](https://github.com/ripplystorm/on-it-downloads/releases/download/windows-v0.36.0/on-it-windows-0.36.0-preview.msi) · [Portable ZIP](https://github.com/ripplystorm/on-it-downloads/releases/download/windows-v0.36.0/on-it-windows-0.36.0-preview.zip) · [Release notes](https://github.com/ripplystorm/on-it-downloads/releases/tag/windows-v0.36.0) |
+| Android 6.0+ | 0.24.0-dev | [Android release](https://github.com/ripplystorm/on-it-downloads/releases/tag/v0.24.0-dev) |
+
+## Windows preview
+
+Use the EXE or MSI installer, or extract the complete portable ZIP and open `On IT/On IT.exe`. The installer offers **Launch On IT** on Finish. Java/.NET are included; PowerShell is not required. Speed Test uses Microsoft Edge WebView2 Runtime.
+
+The Windows preview is currently unsigned and has limited platform coverage. Keep antivirus protection enabled and report blocks. Back up saved LAN scans before upgrading. See the [Windows user guide](https://github.com/ripplystorm/on-it-downloads/releases/download/windows-v0.36.0/WINDOWS_USER_GUIDE.md) and [checksums](https://github.com/ripplystorm/on-it-downloads/releases/download/windows-v0.36.0/SHA256SUMS.txt).
+
+Windows-specific privacy details and provider links are available in Settings → Privacy. Settings → Third-party notices includes the bundled notices and runtime/source information. Feedback: ripplystorm@gmail.com.
+
+---
+
+# Android preview
 
 Android networking tools from **Ripply Apps**. Free to use, with no ads or app analytics SDK.
 
